@@ -28,10 +28,10 @@ function App() {
 
       <Navbar className="justify-content-center" expand="sm">
         <Nav>
-          <Nav.link id="link-style" href="/">Início</Nav.link>
-          <Nav.link id="link-style" href="/create">Criar</Nav.link>
-          <Nav.link id="link-style" href="/delete-all">Deletar Tudo</Nav.link>
-          <Nav.link id="link-style" href="/about">Sobre</Nav.link>
+          <Nav.Link id="link-style" href="/">Início</Nav.Link>
+          <Nav.Link id="link-style" href="/create">Criar</Nav.Link>
+          <Nav.Link id="link-style" href="/delete-all">Deletar Tudo</Nav.Link>
+          <Nav.Link id="link-style" href="/about">Sobre</Nav.Link>
         </Nav>
       </Navbar>
 
