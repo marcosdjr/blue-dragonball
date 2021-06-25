@@ -1,10 +1,12 @@
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
     background-color: #f6ac1e;
+    color: #ffffff;
+    text-align: center;
 }
 
 .logoBar {
@@ -15,13 +17,11 @@ body {
     .logoImg {
         width: 16rem;
         padding: 1rem;
-        
     }
 }
 
 .navbar {
-    background-color: #de0010
-    ;
+    background-color: #de0010;
 }
 
 #link-style {

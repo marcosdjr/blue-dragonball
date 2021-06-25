@@ -1,0 +1,9 @@
+.item-card {
+    cursor: pointer;
+    margin-bottom: 0.5rem;;
+}
+
+.item-card:hover {
+    background-color: #efefef;
+    border: 1px solid #de0010;
+}

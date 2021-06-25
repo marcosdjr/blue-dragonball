@@ -13,6 +13,7 @@ export class Create extends Component {
         }
     }
 
+    //async pq espera a informação da API
     submitHandler = async event => {
 
         //evitar o padrão, que é clickar no botão, enviar e não fazer mais nada
@@ -22,7 +23,7 @@ export class Create extends Component {
 
         const item = {
             name: name.value,
-            imagemUrl: imageUrl.value
+            imageUrl: imageUrl.value
         }
 
         this.setState ({
@@ -53,13 +54,13 @@ export class Create extends Component {
     render(){
         return (
             <>
-            <h2>Aqui vamos criar.</h2>
+            <h2>Adicionar personagens</h2>
 
             <Form onSubmit={this.submitHandler}>
                 <Form.Group controlId="name">
                     <Form.Label>Nome</Form.Label>
                     <Form.Control type="text" placeholder="Digite o nome" />
-                    <Form.Text className="text-muted">Esse nome será utilizado na vizualização dos ítens na lista</Form.Text>
+                    <Form.Text className="text-muted">Esse nome será utilizado na visualização dos itens na lista</Form.Text>
                 </Form.Group>
 
                 <Form.Group controlId="imageUrl">
@@ -69,7 +70,7 @@ export class Create extends Component {
                     Certifique-se de que essa URL representa uma imagem válida.</Form.Text>
                 </Form.Group>
 
-                <Button variant="primary" type="submit">Enviar</Button>
+                <Button variant="primary" type="submit">Criar</Button>
 
             </Form>
             </>
