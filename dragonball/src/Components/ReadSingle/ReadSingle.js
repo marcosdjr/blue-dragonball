@@ -44,13 +44,13 @@ export class ReadSingle extends Component {
                     <Link className="btn btn-danger" to={'/delete/' + item._id}>Excluir</Link>
                 </Container>
 
-                <hr />
+                
 
                 <Container className="info">
                     <Row>
                         <Col>
                             <h1 className="info-title">{item.name}</h1>
-                            <hr />
+                            
                         </Col>
                     </Row>
 

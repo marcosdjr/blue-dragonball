@@ -7,3 +7,28 @@
     background-color: #db222f;
     border-color: #ffffff;
 }
+
+
+.coluna.col {
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 0rem;
+    .row{
+        margin-top: 1rem;
+    }
+}
+
+.card-img-top.about-image {
+    object-fit: cover;
+    object-position: bottom;
+      width: 20rem;
+      height: 20rem;
+      border-radius: 2rem;
+  }
+
+.about.card-text {
+    border-radius: 1rem;
+}

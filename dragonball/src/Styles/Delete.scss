@@ -1,3 +1,15 @@
 .card-text {
     text-align: center;
 }
+
+.coluna.col {
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 0rem;
+    .row{
+        margin-top: 1rem;
+    }
+}

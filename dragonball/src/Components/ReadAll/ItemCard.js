@@ -28,9 +28,9 @@ export class ItemCard extends Component {
                             }}
                         >
 
-                            <Card.Img variant="top" src={item.imageUrl} />
-                            <Card.Body>
-                                <Card.Title>{item.name}</Card.Title>
+                            <Card.Img className='imagem' variant="top" src={item.imageUrl} />
+                            <Card.Body className='corpo' >
+                                <Card.Title className='titulo'>{item.name}</Card.Title>
                             </Card.Body>
                         </Card>
 

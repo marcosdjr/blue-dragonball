@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { Button, Card } from 'react-bootstrap';
+import { Button, Card, Col } from 'react-bootstrap';
 import { Api } from '../../Api/Api';
 
 import '../../Styles/Delete.scss'
@@ -25,9 +25,9 @@ export class Delete extends Component {
         })
 
         await Api.buildApiDeleteRequest(Api.deleteUrl(this.id))
-        .catch(e => {
-            console.error('Erro ao tentar deletar o item: ', e);
-        })
+            .catch(e => {
+                console.error('Erro ao tentar deletar o item: ', e);
+            })
 
         this.setState = ({
             isLoading: false
@@ -46,18 +46,19 @@ export class Delete extends Component {
 
     render() {
         return (
-            <Card>
-                <Card.Body>
-                    <Card.Title>Excluir Item</Card.Title>
-                    <Card.Text>Tem certeza que deseja excluir o item?</Card.Text>
+            <Col className='coluna'>
+                <Card>
+                    <Card.Body>
+                        <Card.Title>Excluir Item</Card.Title>
+                        <Card.Text>Tem certeza que deseja excluir o item?</Card.Text>
 
-                    <Button className="btn" variant="danger" onClick={this.clickHandler}>Excluir</Button>
-                    <Button className="btn" variant="primary" onClick={this.goToView}>Cancelar</Button>
+                        <Button className="btn" variant="danger" onClick={this.clickHandler}>Excluir</Button>
+                        <Button className="btn" variant="primary" onClick={this.goToView}>Cancelar</Button>
 
-                </Card.Body>
+                    </Card.Body>
 
-            </Card>
-
+                </Card>
+            </Col>
         )
     }
 

@@ -11,7 +11,7 @@ export class Update extends Component {
 
         this.state = {
             isLoading: true,
-            item: {},
+            item: { },
         }
     }
 
@@ -77,7 +77,7 @@ export class Update extends Component {
 
                     <Form.Group controlId="imageUrl">
                         <Form.Label>URL da imagem</Form.Label>
-                        <Form.Control type="text" placeholder="Insira a URL da imagem" defaultValue={item.imageUrl} />
+                        <Form.Control type="text" placeholder="Insira a URL da imagem" defaultValue={item.imageUrl}></Form.Control>
                         <Form.Text className="text-muted">A imagem em questão será exibida na lista de ítens.
                             Certifique-se de que essa URL representa uma imagem válida.</Form.Text>
                     </Form.Group>

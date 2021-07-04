@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 //Routes
 import {Switch, Route} from 'react-router-dom'
@@ -49,12 +49,12 @@ function App() {
           <Col>
             <Switch>
               <Route path="/" exact={true} component={ReadAll}></Route>
-              <Route path="/create" component={Create}></Route> 
-              <Route path="/delete-all" component={DeleteAll}></Route>  
+              <Route path="/create" component={Create}></Route>
+              <Route path="/delete-all" component={DeleteAll}></Route>
               <Route path="/about" component={About}></Route>
               <Route path="/view/:id" component={ReadSingle}></Route>
-              <Route path="/delete/:id" component={Delete}> </Route>
-              <Route path="/update/:id" component={Update}> </Route>
+              <Route path="/delete/:id" component={Delete}></Route>
+              <Route path="/update/:id" component={Update}></Route>
             </Switch>
           </Col>
         </Row>

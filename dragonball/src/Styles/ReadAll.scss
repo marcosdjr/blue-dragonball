@@ -1,15 +1,17 @@
-.app-container.container {
-    display: flex;
+* {
+    justify-content:center;
     align-items: center;
-    justify-content: center;
+    align-content: center;
+    text-align: center;
+    
+}
 
-    .loading {
-        width: 5rem;
-    }
-    .noData {
-        font-size: 1.1rem;
-        background-color: #db222f;
-        padding: 10px;
-        margin-top: 8rem;
-    }
+
+
+.noData {
+    font-size: 1.1rem;
+    background-color: #de0010;
+    padding: 10px;
+    margin-top: 5rem;
+   
 }

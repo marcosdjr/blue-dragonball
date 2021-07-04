@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Card, Button } from "react-bootstrap";
+import { Card, Button, Col } from "react-bootstrap";
 import '../../Styles/DeleteAll.scss';
 import { Api } from '../../Api/Api';
 
@@ -45,6 +45,7 @@ export class DeleteAll extends Component {
 
     render() {
         return (
+            <Col className='coluna'>
             <Card>
                 <Card.Body>
                     <Card.Title>Excluir tudo</Card.Title>
@@ -59,6 +60,7 @@ export class DeleteAll extends Component {
 
                 </Card.Body>
             </Card>
+            </Col>
         )
     }
 }

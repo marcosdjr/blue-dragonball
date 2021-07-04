@@ -1,9 +1,45 @@
 .item-card {
-    cursor: pointer;
-    margin-bottom: 0.5rem;;
+    cursor: crosshair;
+    margin-bottom: 0.5rem;
+   
+}
+
+.item-card.card {
+    margin-top: 0.5rem;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    display: flex;
+    
+}
+
+.item-card-body{
+    background-color: #ffffff;
 }
 
 .item-card:hover {
-    background-color: #efefef;
+    
+
     border: 1px solid #de0010;
+}
+
+.titulo{
+    background-color: #ffffff;
+    margin-top: 0.5rem;
+}
+
+.corpo.card-body {
+    background-color: #ffffff;
+    padding-bottom: 0rem;
+}
+
+.card-img-top.imagem {
+  object-fit: cover;
+  object-position: top;
+    max-width: 25rem;
+    max-height: 7rem;
+}
+
+.titulo.card-title.h5 {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
 }

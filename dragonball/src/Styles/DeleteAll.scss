@@ -1,12 +1,50 @@
-.card.title{
-    color: #000000;
+.coluna.col {
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 0rem;
+    .row{
+        margin-top: 1rem;
+    }
+}
+
+
+
+.card {
+    background-color: #f6ac1e;
+    border: none;
+    max-width: 40rem;
+    align-items: center;
+}
+
+
+.card-title {
+    font-size: 2rem;
+    color: #de0010;
 }
 
 .card-text {
-    color: #000000;
-    text-align: justify;
+    font-size: 1.1rem;
+    background-color: #de0010;
+    padding: 10px;
+    margin-top: 0.5rem;
+    
+}
+.card-body{
+    padding-top: 0;
+}
+.btn-primary{
+    border: none;
 }
 
 .btn:last-child {
     margin-left: 0.5rem;
 }
+
+.card-body {
+    background-color: #f6ac1e;
+    border-color: #f6ac1e;
+}
+
