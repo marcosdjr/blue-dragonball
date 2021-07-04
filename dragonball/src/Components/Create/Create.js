@@ -32,7 +32,7 @@ export class Create extends Component {
 
         const request = await Api.buildApiPostRequest(
             Api.createUrl(),
-            //catch serve pra trazer uma info caso dê erro na hora de adicionar/criar
+            //catch serve pra trazer uma info caso dê erro na hora de adicionar/criar.
             item
         ).catch(e => {
             console.error('Erro ao tentar adicionar um item ao banco', e)
