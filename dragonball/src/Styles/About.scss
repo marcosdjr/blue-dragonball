@@ -8,15 +8,14 @@
     border-color: #ffffff;
 }
 
-
 .coluna.col {
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     align-content: center;
     text-align: center;
     display: flex;
     margin-top: 0rem;
-    .row{
+    .row {
         margin-top: 1rem;
     }
 }
@@ -24,10 +23,10 @@
 .card-img-top.about-image {
     object-fit: cover;
     object-position: bottom;
-      width: 20rem;
-      height: 20rem;
-      border-radius: 2rem;
-  }
+    width: 20rem;
+    height: 20rem;
+    border-radius: 2rem;
+}
 
 .about.card-text {
     border-radius: 1rem;

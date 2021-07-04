@@ -53,7 +53,7 @@ export const Api = {
         })
     },
 
-    //nome, parametros, retorno, fetch, url, objeto
+    //nome, parametros, retorno, fetch, url, objeto.
     buildApiDeleteRequest: url => {
         return fetch(url, {
             method: 'DELETE',
